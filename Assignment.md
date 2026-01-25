@@ -17,16 +17,22 @@ This repository describes the activities and tasks related to **OpenCV** and **R
 I have completed the image annotation tasks using Python and OpenCV according to the instructions given in the assignment.
 
 - Set up a Python environment and installed necessary libraries via `pip`.
+
 - Created `task-a.py` to process a 4-image grid and overlay student identification.
+
 - Created `task-b2.py` to annotate a specific snapshot from the RoboDK robot simulation environment.
+
 - Configured precise geometric frames for specific objects:
     - **Cube 1**: Annotated with a blue rectangle tightly fitted to the object edges.
     - **Cylinder 1**: Annotated with a red circle highlighting the top profile.
+    
 - Generated a `requirements.txt` file using `pip freeze` to ensure environment reproducibility.
 
 ### Findings
 - **Ease/Difficulty:** The logic of using OpenCV was straightforward, however, fine-tuning the `cv2.rectangle` and `cv2.circle` coordinates to fit the objects perfectly required multiple iterations to achieve high precision.
+
 - **Time/Speed:** The entire process took approximately 5-6 hours including intervals. Once the scripts are configured, the execution is nearly instantaneous.
+
 - **Issues:** During the process, the RoboDK application experienced frequent crashes while attempting to capture snapshots, which required restarting the simulation environment several times to obtain the final image. Additionally, I ensured `cv2.waitKey(0)` was correctly implemented so the program windows could be closed manually.
 
 ### Deliverables and Execution
@@ -52,9 +58,11 @@ deactivate
 I processed the original 4-image grid and added identification overlays.
 
 **Original Image:**
+
 <img src="images/task-a-image.jpeg" width="800"><br />
 
 **Annotated Result:**
+
 <img src="images/task-a-result.png" width="800"><br />
 
 ---
@@ -63,4 +71,5 @@ I processed the original 4-image grid and added identification overlays.
 The following image shows the objects in the RoboDK environment framed with precise geometric shapes and labels.
 
 **Final Annotated Snapshot:**
+
 <img src="images/task-b2-result.png" width="800"><br />

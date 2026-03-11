@@ -332,10 +332,10 @@ Y: [-100, 380]
 
 | | Plan Mode | Execute Mode |
 |--|-----------|--------------|
-| Detection | ✓ | ✓ |
-| Coordinate mapping | ✓ | ✓ |
-| Annotated overlay | ✓ | ✓ |
-| Robot movement | ✗ | ✓ |
+| Detection | Done | Done |
+| Coordinate mapping | Done | Done |
+| Annotated overlay | Done | Done |
+| Robot movement | - | Done |
 | Run Pick button | Disabled | Enabled |
 | Warning banner | None |  Active |
 
@@ -480,9 +480,8 @@ See Potential Improvements section above. The most impactful single change would
 
 | Feature | Points | Status |
 |---------|--------|--------|
-| Colour filter (`--color red`, etc.) | +10% | ✓ Implemented |
-| Shape filter (`--shape circle`, etc.) | +10% | ✓ Implemented |
-| Combined colour + shape logic | +5% | ✓ Implemented |
+| Colour filter (`--color red`, etc.) | +10% | Implemented |
+| Shape filter (`--shape circle`, etc.) | +10% |Implemented |
+| Combined colour + shape logic | +5% |  Implemented |
 
 ---
-
